@@ -3,7 +3,7 @@ import React from 'react'
 export const Cards = () => {
   return (
 <div className='md:flex justify-between items-center space-x-4 mt-5 flex-row '>
-<article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+<article className="overflow-hidden space-y-5 rounded-lg border border-gray-100 bg-white shadow-sm">
   <img
     alt=""
     src="https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -47,7 +47,7 @@ export const Cards = () => {
     </a>
   </div>
 </article>
-<article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+<article className="overflow-hidden space-y-5 rounded-lg border border-gray-100 bg-white shadow-sm">
   <img
     alt=""
     src="https://images.pexels.com/photos/3423860/pexels-photo-3423860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -103,7 +103,7 @@ export const Cards = () => {
     </a>
   </div>
 </article>
-<article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+<article className="overflow-hidden space-y-5 rounded-lg border border-gray-100 bg-white shadow-sm">
   <img
     alt=""
     src="https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
